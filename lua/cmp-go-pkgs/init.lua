@@ -108,4 +108,6 @@ source.is_available = function()
 	return vim.bo.filetype == "go"
 end
 
+source.new()
+
 return source
